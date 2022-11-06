@@ -35,8 +35,8 @@ public class C06_Encapsulation {
 
         List<Integer> sayilar= new ArrayList<>();
         sayilar.add(2);
-        sayilar.add(2);
-        sayilar.add(2);
+        sayilar.add(3);
+        sayilar.add(5);
 
         // sayilar.get(1)=10 get okumaya izin var ama atamaya izin yok
 

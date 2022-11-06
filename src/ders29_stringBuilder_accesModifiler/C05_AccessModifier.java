@@ -14,5 +14,6 @@ public class C05_AccessModifier {
 
         System.out.println(obj2.isim); // Ali
 
+
     }
 }
