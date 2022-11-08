@@ -19,14 +19,29 @@ public class AEncapsuleClass {
     // ucreti sigortadan oldugu icin
     // personel hasta ucretlerini goremesin
    // setter methodu lazim
-    String hemsireIsmi;
-    String hemsireAdresi;
+   private String hemsireIsmi;
+   private String hemsireAdresi;
 
     // bu instace veriable lere herkes ulasabilsin
     // bu durumda public yapmak ilk akla gelen cozum olacaktir
+    // bu veriable leri public yapmak yerine
+    // private yapip , getter ve setter olusturmak da
+    // ayni islevi gorur
 
 
+    public String getHemsireIsmi() {
+        return hemsireIsmi;
+    }
 
+    public void setHemsireIsmi(String hemsireIsmi) {
+        this.hemsireIsmi = hemsireIsmi;
+    }
 
+    public String getHemsireAdresi() {
+        return hemsireAdresi;
+    }
 
+    public void setHemsireAdresi(String hemsireAdresi) {
+        this.hemsireAdresi = hemsireAdresi;
+    }
 }
