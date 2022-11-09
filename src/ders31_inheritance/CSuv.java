@@ -20,14 +20,19 @@ public class CSuv extends BinekArac{
         suv2.plaka="23yu87";
         suv2.yakit="benzin";
         suv2.yil=2012;
+        System.out.println(suv2.marka);
+        System.out.println(suv2.model);
+        System.out.println(suv2.motor);
+        System.out.println(suv2.plaka);
+        System.out.println(suv2.yakit);
+        System.out.println(suv2.yil);
         suv2.hiz(suv2.yakit);
-
 
 
     }
     public void hiz(String yakit){
         if (yakit.equalsIgnoreCase("benzin")){
-            System.out.println("benzinlik suvler max 240 km yapar");
+            System.out.println("benzinli suvler max 240 km yapar");
         } else if (yakit.equalsIgnoreCase("dizel")) {
             System.out.println("dizel suv lar max 200 km yapar");
 
