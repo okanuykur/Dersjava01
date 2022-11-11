@@ -7,7 +7,7 @@ public class BToyota extends Araba {
     }
 
     BToyota(int Pt){
-        System.out.println("parametreli toyota cons");
+        System.out.println("parametreli toyota constroctur");
 
     }
     BToyota(String pt2){
